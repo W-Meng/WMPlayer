@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  WMPlayer
+//
+//  Created by 王孟 on 2017/3/19.
+//  Copyright © 2017年 王孟. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import <IJKMediaFramework/IJKMediaFramework.h>
+#import <Masonry.h>
+//#import "UIView+SLExtension.h"
+//#import "UIViewController+SLHUD.h"
+//#import "ALinConstant.h"
+#import "WMNetworkTool.h"
+#import <MJExtension.h>
+#import "UIImageView+WebCache.h"
+//#import "UIViewController+SLExtension.h"
+//#import "NSObject+ALinHUD.h"
+
+// 屏幕宽/高
+#define WMScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define WMScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#endif /* PrefixHeader_pch */

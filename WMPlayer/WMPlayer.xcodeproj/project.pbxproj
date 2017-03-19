@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		560885DDBB915BE8CCBBCFBB /* libPods-WMPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B492A7228C3970C6681077AE /* libPods-WMPlayer.a */; };
+		9A418A7F1E7E535000888EFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A418A7E1E7E535000888EFF /* main.m */; };
+		9A418A821E7E535000888EFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A418A811E7E535000888EFF /* AppDelegate.m */; };
+		9A418A8A1E7E535000888EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A418A891E7E535000888EFF /* Assets.xcassets */; };
+		9A418A8D1E7E535000888EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A418A8B1E7E535000888EFF /* LaunchScreen.storyboard */; };
+		9A418A951E7E535F00888EFF /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A418A941E7E535F00888EFF /* IJKMediaFramework.framework */; };
+		9A418A981E7E537900888EFF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A418A971E7E537900888EFF /* libc++.tbd */; };
+		9A418A9A1E7E53EC00888EFF /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A418A991E7E53EC00888EFF /* VideoToolbox.framework */; };
+		9A418A9C1E7E53F700888EFF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A418A9B1E7E53F700888EFF /* CoreVideo.framework */; };
+		9A418A9E1E7E540100888EFF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A418A9D1E7E540100888EFF /* CoreMedia.framework */; };
+		9A418AA01E7E540C00888EFF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A418A9F1E7E540C00888EFF /* OpenGLES.framework */; };
+		9A418AA21E7E541700888EFF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A418AA11E7E541700888EFF /* MobileCoreServices.framework */; };
+		9A418AA41E7E542300888EFF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A418AA31E7E542300888EFF /* MediaPlayer.framework */; };
+		9A418AA61E7E543200888EFF /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A418AA51E7E543200888EFF /* libbz2.tbd */; };
+		9A418AA81E7E543A00888EFF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A418AA71E7E543A00888EFF /* libz.tbd */; };
+		9A418AAA1E7E545300888EFF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A418AA91E7E545300888EFF /* AudioToolbox.framework */; };
+		9A418AAC1E7E545900888EFF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A418AAB1E7E545900888EFF /* AVFoundation.framework */; };
+		9A418ACA1E7EC3AA00888EFF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A418AC91E7EC3AA00888EFF /* Reachability.m */; };
+		9A418ACE1E7EC8C600888EFF /* WMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A418ACD1E7EC8C600888EFF /* WMMainViewController.m */; };
+		9A418AD51E7EC9B600888EFF /* WMHomeBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A418AD41E7EC9B600888EFF /* WMHomeBaseViewController.m */; };
+		9A418AD81E7EC9D500888EFF /* WMShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A418AD71E7EC9D500888EFF /* WMShowViewController.m */; };
+		9A418ADB1E7ECD9500888EFF /* WMNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A418ADA1E7ECD9500888EFF /* WMNetworkTool.m */; };
+		9A418ADE1E7ED00900888EFF /* WMLiverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A418ADD1E7ED00900888EFF /* WMLiverModel.m */; };
+		9A418AE11E7ED97900888EFF /* WMLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A418AE01E7ED97900888EFF /* WMLiveViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A418A7A1E7E535000888EFF /* WMPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A418A7E1E7E535000888EFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A418A801E7E535000888EFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A418A811E7E535000888EFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A418A891E7E535000888EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A418A8C1E7E535000888EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A418A8E1E7E535000888EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A418A941E7E535F00888EFF /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		9A418A971E7E537900888EFF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9A418A991E7E53EC00888EFF /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		9A418A9B1E7E53F700888EFF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		9A418A9D1E7E540100888EFF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9A418A9F1E7E540C00888EFF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9A418AA11E7E541700888EFF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9A418AA31E7E542300888EFF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9A418AA51E7E543200888EFF /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		9A418AA71E7E543A00888EFF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9A418AA91E7E545300888EFF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9A418AAB1E7E545900888EFF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9A418AC81E7EC3AA00888EFF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9A418AC91E7EC3AA00888EFF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9A418ACB1E7EC78400888EFF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9A418ACC1E7EC8C600888EFF /* WMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMainViewController.h; sourceTree = "<group>"; };
+		9A418ACD1E7EC8C600888EFF /* WMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMainViewController.m; sourceTree = "<group>"; };
+		9A418AD31E7EC9B600888EFF /* WMHomeBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMHomeBaseViewController.h; sourceTree = "<group>"; };
+		9A418AD41E7EC9B600888EFF /* WMHomeBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMHomeBaseViewController.m; sourceTree = "<group>"; };
+		9A418AD61E7EC9D500888EFF /* WMShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMShowViewController.h; sourceTree = "<group>"; };
+		9A418AD71E7EC9D500888EFF /* WMShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMShowViewController.m; sourceTree = "<group>"; };
+		9A418AD91E7ECD9500888EFF /* WMNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNetworkTool.h; sourceTree = "<group>"; };
+		9A418ADA1E7ECD9500888EFF /* WMNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNetworkTool.m; sourceTree = "<group>"; };
+		9A418ADC1E7ED00900888EFF /* WMLiverModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLiverModel.h; sourceTree = "<group>"; };
+		9A418ADD1E7ED00900888EFF /* WMLiverModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLiverModel.m; sourceTree = "<group>"; };
+		9A418ADF1E7ED97900888EFF /* WMLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLiveViewController.h; sourceTree = "<group>"; };
+		9A418AE01E7ED97900888EFF /* WMLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLiveViewController.m; sourceTree = "<group>"; };
+		B492A7228C3970C6681077AE /* libPods-WMPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WMPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2289A7A4A817A47A9294A0 /* Pods-WMPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-WMPlayer/Pods-WMPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		F80DCFB01C5526D9EB0F4EED /* Pods-WMPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WMPlayer/Pods-WMPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A418A771E7E535000888EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A418AAC1E7E545900888EFF /* AVFoundation.framework in Frameworks */,
+				9A418AAA1E7E545300888EFF /* AudioToolbox.framework in Frameworks */,
+				9A418AA81E7E543A00888EFF /* libz.tbd in Frameworks */,
+				9A418AA61E7E543200888EFF /* libbz2.tbd in Frameworks */,
+				9A418AA41E7E542300888EFF /* MediaPlayer.framework in Frameworks */,
+				9A418AA21E7E541700888EFF /* MobileCoreServices.framework in Frameworks */,
+				9A418AA01E7E540C00888EFF /* OpenGLES.framework in Frameworks */,
+				9A418A9E1E7E540100888EFF /* CoreMedia.framework in Frameworks */,
+				9A418A9C1E7E53F700888EFF /* CoreVideo.framework in Frameworks */,
+				9A418A9A1E7E53EC00888EFF /* VideoToolbox.framework in Frameworks */,
+				9A418A981E7E537900888EFF /* libc++.tbd in Frameworks */,
+				9A418A951E7E535F00888EFF /* IJKMediaFramework.framework in Frameworks */,
+				560885DDBB915BE8CCBBCFBB /* libPods-WMPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27F2D580EB5DBF140A1013A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F80DCFB01C5526D9EB0F4EED /* Pods-WMPlayer.debug.xcconfig */,
+				EC2289A7A4A817A47A9294A0 /* Pods-WMPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A418A711E7E535000888EFF = {
+			isa = PBXGroup;
+			children = (
+				9A418A7C1E7E535000888EFF /* WMPlayer */,
+				9A418A7B1E7E535000888EFF /* Products */,
+				9A418A961E7E537900888EFF /* Frameworks */,
+				27F2D580EB5DBF140A1013A9 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9A418A7B1E7E535000888EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A418A7A1E7E535000888EFF /* WMPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A418A7C1E7E535000888EFF /* WMPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				9A418AAF1E7EC33600888EFF /* classes */,
+				9A418A801E7E535000888EFF /* AppDelegate.h */,
+				9A418A811E7E535000888EFF /* AppDelegate.m */,
+				9A418A891E7E535000888EFF /* Assets.xcassets */,
+				9A418A8B1E7E535000888EFF /* LaunchScreen.storyboard */,
+				9A418A8E1E7E535000888EFF /* Info.plist */,
+				9A418A7D1E7E535000888EFF /* Supporting Files */,
+			);
+			path = WMPlayer;
+			sourceTree = "<group>";
+		};
+		9A418A7D1E7E535000888EFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A418A941E7E535F00888EFF /* IJKMediaFramework.framework */,
+				9A418A7E1E7E535000888EFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A418A961E7E537900888EFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A418AAB1E7E545900888EFF /* AVFoundation.framework */,
+				9A418AA91E7E545300888EFF /* AudioToolbox.framework */,
+				9A418AA71E7E543A00888EFF /* libz.tbd */,
+				9A418AA51E7E543200888EFF /* libbz2.tbd */,
+				9A418AA31E7E542300888EFF /* MediaPlayer.framework */,
+				9A418AA11E7E541700888EFF /* MobileCoreServices.framework */,
+				9A418A9F1E7E540C00888EFF /* OpenGLES.framework */,
+				9A418A9D1E7E540100888EFF /* CoreMedia.framework */,
+				9A418A9B1E7E53F700888EFF /* CoreVideo.framework */,
+				9A418A991E7E53EC00888EFF /* VideoToolbox.framework */,
+				9A418A971E7E537900888EFF /* libc++.tbd */,
+				B492A7228C3970C6681077AE /* libPods-WMPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A418AAF1E7EC33600888EFF /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A418AB01E7EC33600888EFF /* Base */,
+				9A418AB11E7EC33600888EFF /* Home */,
+				9A418ABE1E7EC33600888EFF /* Login */,
+				9A418ABF1E7EC33600888EFF /* Network */,
+				9A418AC01E7EC33600888EFF /* Other */,
+				9A418AC11E7EC33600888EFF /* Profile */,
+				9A418AC21E7EC33600888EFF /* Resource */,
+				9A418AC31E7EC33600888EFF /* Show */,
+				9A418AC71E7EC33600888EFF /* Toos */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		9A418AB01E7EC33600888EFF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9A418ACC1E7EC8C600888EFF /* WMMainViewController.h */,
+				9A418ACD1E7EC8C600888EFF /* WMMainViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9A418AB11E7EC33600888EFF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9A418ACF1E7EC97400888EFF /* Main */,
+				9A418AB21E7EC33600888EFF /* Hot */,
+				9A418AB61E7EC33600888EFF /* Live */,
+				9A418ABA1E7EC33600888EFF /* New */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9A418AB21E7EC33600888EFF /* Hot */ = {
+			isa = PBXGroup;
+			children = (
+				9A418AB31E7EC33600888EFF /* Controller */,
+				9A418AB41E7EC33600888EFF /* Model */,
+				9A418AB51E7EC33600888EFF /* View */,
+			);
+			path = Hot;
+			sourceTree = "<group>";
+		};
+		9A418AB31E7EC33600888EFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A418AB41E7EC33600888EFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A418AB51E7EC33600888EFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A418AB61E7EC33600888EFF /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				9A418AB71E7EC33600888EFF /* Controller */,
+				9A418AB81E7EC33600888EFF /* Model */,
+				9A418AB91E7EC33600888EFF /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		9A418AB71E7EC33600888EFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A418ADF1E7ED97900888EFF /* WMLiveViewController.h */,
+				9A418AE01E7ED97900888EFF /* WMLiveViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A418AB81E7EC33600888EFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A418AB91E7EC33600888EFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A418ABA1E7EC33600888EFF /* New */ = {
+			isa = PBXGroup;
+			children = (
+				9A418ABB1E7EC33600888EFF /* Controller */,
+				9A418ABC1E7EC33600888EFF /* Model */,
+				9A418ABD1E7EC33600888EFF /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		9A418ABB1E7EC33600888EFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A418ABC1E7EC33600888EFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A418ABD1E7EC33600888EFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A418ABE1E7EC33600888EFF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9A418ABF1E7EC33600888EFF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9A418AC81E7EC3AA00888EFF /* Reachability.h */,
+				9A418AC91E7EC3AA00888EFF /* Reachability.m */,
+				9A418AD91E7ECD9500888EFF /* WMNetworkTool.h */,
+				9A418ADA1E7ECD9500888EFF /* WMNetworkTool.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9A418AC01E7EC33600888EFF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9A418AC11E7EC33600888EFF /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9A418AC21E7EC33600888EFF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9A418ACB1E7EC78400888EFF /* PrefixHeader.pch */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9A418AC31E7EC33600888EFF /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				9A418AC41E7EC33600888EFF /* Controller */,
+				9A418AC51E7EC33600888EFF /* Model */,
+				9A418AC61E7EC33600888EFF /* View */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		9A418AC41E7EC33600888EFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A418AD61E7EC9D500888EFF /* WMShowViewController.h */,
+				9A418AD71E7EC9D500888EFF /* WMShowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A418AC51E7EC33600888EFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A418AC61E7EC33600888EFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A418AC71E7EC33600888EFF /* Toos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Toos;
+			sourceTree = "<group>";
+		};
+		9A418ACF1E7EC97400888EFF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9A418AD01E7EC97400888EFF /* Controller */,
+				9A418AD11E7EC97400888EFF /* Model */,
+				9A418AD21E7EC97400888EFF /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9A418AD01E7EC97400888EFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A418AD31E7EC9B600888EFF /* WMHomeBaseViewController.h */,
+				9A418AD41E7EC9B600888EFF /* WMHomeBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A418AD11E7EC97400888EFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A418ADC1E7ED00900888EFF /* WMLiverModel.h */,
+				9A418ADD1E7ED00900888EFF /* WMLiverModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A418AD21E7EC97400888EFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A418A791E7E535000888EFF /* WMPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A418A911E7E535000888EFF /* Build configuration list for PBXNativeTarget "WMPlayer" */;
+			buildPhases = (
+				989135F73F3EDAB6D0A4B554 /* [CP] Check Pods Manifest.lock */,
+				9A418A761E7E535000888EFF /* Sources */,
+				9A418A771E7E535000888EFF /* Frameworks */,
+				9A418A781E7E535000888EFF /* Resources */,
+				9039F76ABC6915CF56637803 /* [CP] Embed Pods Frameworks */,
+				28CAF8D5C959381FFC8CBC2B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMPlayer;
+			productName = WMPlayer;
+			productReference = 9A418A7A1E7E535000888EFF /* WMPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A418A721E7E535000888EFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "王孟";
+				TargetAttributes = {
+					9A418A791E7E535000888EFF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GA2CAMV39C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9A418A751E7E535000888EFF /* Build configuration list for PBXProject "WMPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A418A711E7E535000888EFF;
+			productRefGroup = 9A418A7B1E7E535000888EFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A418A791E7E535000888EFF /* WMPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A418A781E7E535000888EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A418A8D1E7E535000888EFF /* LaunchScreen.storyboard in Resources */,
+				9A418A8A1E7E535000888EFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28CAF8D5C959381FFC8CBC2B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WMPlayer/Pods-WMPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9039F76ABC6915CF56637803 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WMPlayer/Pods-WMPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		989135F73F3EDAB6D0A4B554 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A418A761E7E535000888EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A418ADE1E7ED00900888EFF /* WMLiverModel.m in Sources */,
+				9A418A821E7E535000888EFF /* AppDelegate.m in Sources */,
+				9A418AD81E7EC9D500888EFF /* WMShowViewController.m in Sources */,
+				9A418ACE1E7EC8C600888EFF /* WMMainViewController.m in Sources */,
+				9A418AD51E7EC9B600888EFF /* WMHomeBaseViewController.m in Sources */,
+				9A418AE11E7ED97900888EFF /* WMLiveViewController.m in Sources */,
+				9A418ACA1E7EC3AA00888EFF /* Reachability.m in Sources */,
+				9A418ADB1E7ECD9500888EFF /* WMNetworkTool.m in Sources */,
+				9A418A7F1E7E535000888EFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A418A8B1E7E535000888EFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A418A8C1E7E535000888EFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A418A8F1E7E535000888EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A418A901E7E535000888EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A418A921E7E535000888EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F80DCFB01C5526D9EB0F4EED /* Pods-WMPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GA2CAMV39C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WMPlayer",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WMPlayer/classes/Resource/PrefixHeader.pch";
+				INFOPLIST_FILE = WMPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wm.WMPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9A418A931E7E535000888EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2289A7A4A817A47A9294A0 /* Pods-WMPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GA2CAMV39C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WMPlayer",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WMPlayer/classes/Resource/PrefixHeader.pch";
+				INFOPLIST_FILE = WMPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wm.WMPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A418A751E7E535000888EFF /* Build configuration list for PBXProject "WMPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A418A8F1E7E535000888EFF /* Debug */,
+				9A418A901E7E535000888EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A418A911E7E535000888EFF /* Build configuration list for PBXNativeTarget "WMPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A418A921E7E535000888EFF /* Debug */,
+				9A418A931E7E535000888EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A418A721E7E535000888EFF /* Project object */;
+}
